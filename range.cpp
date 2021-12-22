@@ -20,6 +20,10 @@ int main(void){
     return 0;
     }
 void range(int a){
-((a<20)?(cout<<"Range [0, 20]") : (20<=a<40)?(cout<<"Range [20, 40]"):(40<=a<60)?(cout<<"Range [40, 60]"):(60<=a<80)?(cout<<"Range [60, 80]"):(cout<<"Invalid"));
+    
+  ((a<20)?(cout<<"Range [0, 20]") : (a<40)?(cout<<"Range [20, 40]"):(a<60)?(cout<<"Range [40, 60]"):(a<80)?(cout<<"Range [60, 80]"):(cout<<"Invalid"));
+    
     
 }
+
+
